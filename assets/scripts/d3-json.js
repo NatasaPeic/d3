@@ -7,7 +7,6 @@
        // it calls  d3.nest
        let nested = d3.nest()
        // d.symbol loops through all symbols out of data
-       // d is row object for induvidual row
          .key(function (d){ return d.symbol; })
          .entries(data);
 
@@ -21,5 +20,5 @@
        return d;
      }
 
- // when csv is loaded it gets passed to render function
+    // when csv is loaded it gets passed to render function
      d3.csv("death-rate-reduced.csv", type, render);
