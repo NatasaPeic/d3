@@ -5,16 +5,157 @@
 
       <script src="vendor.bundle.js" type="text/javascript" charset="utf-8" defer></script>
       <script src="bundle.js" type="text/javascript" charset="utf-8" defer></script>
+
+      <link rel="stylesheet" href="assets/styles/one-page-wonder.css" media="screen" title="no title" charset="utf-8">
+
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+      <!-- d3 library -->
+      <script src="http://d3js.org/d3.v3.min.js"></script>
+
+
     </head>
     <body class="container-fluid">
-      <h1>Example</h1>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-      ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.</p>
+
+
+      <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Data Visualization with d3</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="https://d3js.org/" target="_blank">About</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/d3/d3/wiki/Tutorials" target="_blank">Tutorials</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Full Width Image Header -->
+  <header class="header-image">
+      <div class="headline">
+          <div class="container">
+              <h2>Data-Driven Documents</h2>
+              <h2></h2>
+          </div>
+      </div>
+  </header>
+
+<br>
+<br>
+<br>
+  <div class="container">
+
+
+
+      <br>
+      <!-- Second Featurette -->
+      <div class="featurette" >
+          <img class="featurette-image img-circle img-responsive pull-left" src="assets/d3.png" width="300px" alt="">
+          <br>
+          <br>
+          <h2 class="featurette-heading"></h2>
+
+          <br>
+
+          <h4 id="text">D3 is JavaScript library used for manipulation and visual representation of documents based on data. D3 binds data to a DOM and then applies transformation to the document. D3 provides many <a href="http://objjob.phrogz.net/d3/methods" target="_blank">built in methods</a> as well as <a href="https://github.com/d3/d3/wiki/Gallery" target="_blank">reusable functions</a> that allow users to visualize data imported from various document types such as csv, JSON, tsv etc.</h4>
+
+          <h4 id="text">
+            D3 uses HTML, CSS and <a href="https://developer.mozilla.org/en-US/docs/Web/SVG" target="_blank">SVG</a> to represent the data. SVG is short for Scalable Vector Graphics. Shapes are defined using numbers, therefor shapes can be scaled up and down in size. SVG can only render 2D graphics.
+          </h4>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+      <!-- Second Featurette -->
+      <div class="featurette" >
+          <img class="featurette-image img-circle img-responsive pull-left" src="assets/cdc.jpg" width="300px" alt="">
+          <br>
+          <br>
+          <h2 class="featurette-heading">CDC datasets</h2>
+
+          <br>
+
+          <h4 id="text">
+            CDC has various health related publicly available datasets. I was particularly interested in representing the number of death rates for each leading cause of death over time. I have collected the data from CDC, and it covers death rates from 1900 to 2013.
+          </h4>
+          <h4 id="text">
+            Death rates are calculated based on 2000. US standard population census. Death rates represents the number of deaths per 100 000 people. Death rates are <a href="https://en.wikipedia.org/wiki/Age_adjustment" target="_blank">age adjusted</a>.
+
+            <br>
+            <br>
+          </h4>
+            <br>
+            <br>
+
+          <h2 class="featurette-heading">Rendering JSON</h2>
+          <br>
+          <br>
+          <div id="cdc-2">
+            <script src="assets/scripts/d3-json.js"> </script>
+          </div>
+
+          <br>
+          <br>
+          <br>
+          <br>
+
+           <h2 class="featurette-heading">D3 data visualization</h2>
+           <br>
+           <br>
+           <br>
+
+          <div id="cdc-1">
+            <img id="legend" src="assets/legend.png" alt="" />
+            <script src="assets/scripts/d3.js"> </script>
+          </div>
+
+
+
+          <h4 id="text">
+            The chart above represents life expectancy values for the same time frame (1900-2013) which proves that after the drop caused by <a href="https://en.wikipedia.org/wiki/Great_Depression" target="_blank">Great Depression</a>, life expectancy tends to increase.
+          </h4>
+
+      </div>
+
+      <hr class="featurette-divider">
+
+
+
+
+
+      <!-- Footer -->
+             <footer>
+                 <div class="row">
+                     <div class="col-lg-12">
+                         <p>Copyright &copy; Created by <a href="https://www.linkedin.com/in/natasa-peic" target="_blank">Natasa Peic</a>, WDI13</p>
+                     </div>
+                 </div>
+             </footer>
+
+
+
+
+
     </body>
 </html>
