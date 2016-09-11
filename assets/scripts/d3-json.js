@@ -1,13 +1,13 @@
 'use strict';
 
 
-
-let lineColumn = "symbol";
+// it just running d3.nest to represent the data
 
      function render(data){
 
        let nested = d3.nest()
-         .key(function (d){ return d[lineColumn]; })
+       // d.symbol loops through all symbols out of data
+         .key(function (d){ return d.symbol; })
          .entries(data);
 
        d3.select("#cdc-2").append("pre")
