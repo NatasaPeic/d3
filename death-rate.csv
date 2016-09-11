@@ -1,0 +1,571 @@
+symbol,date,rate
+Heart Disease,1900,265.4
+Heart Disease,1901,272.6
+Heart Disease,1902,285.2
+Heart Disease,1903,304.5
+Heart Disease,1904,331.5
+Heart Disease,1905,327.8
+Heart Disease,1906,325.5
+Heart Disease,1907,356.5
+Heart Disease,1908,328.6
+Heart Disease,1909,329.2
+Heart Disease,1910,345.1
+Heart Disease,1911,341.8
+Heart Disease,1912,346.0
+Heart Disease,1913,337.9
+Heart Disease,1914,346.4
+Heart Disease,1915,361.5
+Heart Disease,1916,373.3
+Heart Disease,1917,377.9
+Heart Disease,1918,366.2
+Heart Disease,1919,335.7
+Heart Disease,1920,375.0
+Heart Disease,1921,366.2
+Heart Disease,1922,392.1
+Heart Disease,1923,410.3
+Heart Disease,1924,410.5
+Heart Disease,1925,433.8
+Heart Disease,1926,465.7
+Heart Disease,1927,448.8
+Heart Disease,1928,478.9
+Heart Disease,1929,476.2
+Heart Disease,1930,467.9
+Heart Disease,1931,459.6
+Heart Disease,1932,482.8
+Heart Disease,1933,483.8
+Heart Disease,1934,502.9
+Heart Disease,1935,506.8
+Heart Disease,1936,546.2
+Heart Disease,1937,538.8
+Heart Disease,1938,528.9
+Heart Disease,1939,534.5
+Heart Disease,1940,558.5
+Heart Disease,1941,537.9
+Heart Disease,1942,531.7
+Heart Disease,1943,567.5
+Heart Disease,1944,541.1
+Heart Disease,1945,533.2
+Heart Disease,1946,527.7
+Heart Disease,1947,552.5
+Heart Disease,1948,549.0
+Heart Disease,1949,581.0
+Heart Disease,1950,588.8
+Heart Disease,1951,577.9
+Heart Disease,1952,568.8
+Heart Disease,1953,570.1
+Heart Disease,1954,544.6
+Heart Disease,1955,556.7
+Heart Disease,1956,560.6
+Heart Disease,1957,568.5
+Heart Disease,1958,563.6
+Heart Disease,1959,552.1
+Heart Disease,1960,559.0
+Heart Disease,1961,545.3
+Heart Disease,1962,556.9
+Heart Disease,1963,563.4
+Heart Disease,1964,543.3
+Heart Disease,1965,542.5
+Heart Disease,1966,541.2
+Heart Disease,1967,524.7
+Heart Disease,1968,531.0
+Heart Disease,1969,516.8
+Heart Disease,1970,492.7
+Heart Disease,1971,492.9
+Heart Disease,1972,490.2
+Heart Disease,1973,482.0
+Heart Disease,1974,458.8
+Heart Disease,1975,431.2
+Heart Disease,1976,426.9
+Heart Disease,1977,413.7
+Heart Disease,1978,409.9
+Heart Disease,1979,401.6
+Heart Disease,1980,412.1
+Heart Disease,1981,397.0
+Heart Disease,1982,389.0
+Heart Disease,1983,388.9
+Heart Disease,1984,378.8
+Heart Disease,1985,375.0
+Heart Disease,1986,365.1
+Heart Disease,1987,355.9
+Heart Disease,1988,352.5
+Heart Disease,1989,332.0
+Heart Disease,1990,321.8
+Heart Disease,1991,313.8
+Heart Disease,1992,306.1
+Heart Disease,1993,309.9
+Heart Disease,1994,299.7
+Heart Disease,1995,296.3
+Heart Disease,1996,288.3
+Heart Disease,1997,280.4
+Heart Disease,1998,272.4
+Heart Disease,1999,266.5
+Heart Disease,2000,257.6
+Heart Disease,2001,249.5
+Heart Disease,2002,244.6
+Heart Disease,2003,236.3
+Heart Disease,2004,221.6
+Heart Disease,2005,216.8
+Heart Disease,2006,205.5
+Heart Disease,2007,196.1
+Heart Disease,2008,192.1
+Heart Disease,2009,182.8
+Heart Disease,2010,179.1
+Heart Disease,2011,173.7
+Heart Disease,2012,170.5
+Heart Disease,2013,169.8
+Cancer,1900,114.8
+Cancer,1901,118.1
+Cancer,1902,119.7
+Cancer,1903,125.2
+Cancer,1904,127.9
+Cancer,1905,132.5
+Cancer,1906,128.8
+Cancer,1907,133.0
+Cancer,1908,134.5
+Cancer,1909,138.1
+Cancer,1910,143.1
+Cancer,1911,140.4
+Cancer,1912,144.7
+Cancer,1913,147.8
+Cancer,1914,146.6
+Cancer,1915,149.5
+Cancer,1916,152.2
+Cancer,1917,150.7
+Cancer,1918,148.4
+Cancer,1919,152.1
+Cancer,1920,159.0
+Cancer,1921,163.5
+Cancer,1922,165.6
+Cancer,1923,168.8
+Cancer,1924,170.6
+Cancer,1925,174.3
+Cancer,1926,177.3
+Cancer,1927,177.8
+Cancer,1928,177.8
+Cancer,1929,175.3
+Cancer,1930,174.5
+Cancer,1931,175.8
+Cancer,1932,179.2
+Cancer,1933,178.2
+Cancer,1934,181.6
+Cancer,1935,183.4
+Cancer,1936,186.8
+Cancer,1937,184.6
+Cancer,1938,185.7
+Cancer,1939,187.1
+Cancer,1940,187.8
+Cancer,1941,184.1
+Cancer,1942,183.8
+Cancer,1943,183.9
+Cancer,1944,183.8
+Cancer,1945,186.9
+Cancer,1946,187.1
+Cancer,1947,190.7
+Cancer,1948,193.4
+Cancer,1949,193.9
+Cancer,1950,193.9
+Cancer,1951,192.0
+Cancer,1952,194.2
+Cancer,1953,194.6
+Cancer,1954,194.3
+Cancer,1955,194.5
+Cancer,1956,195.6
+Cancer,1957,195.4
+Cancer,1958,192.0
+Cancer,1959,191.6
+Cancer,1960,193.9
+Cancer,1961,193.4
+Cancer,1962,193.3
+Cancer,1963,194.7
+Cancer,1964,193.6
+Cancer,1965,195.6
+Cancer,1966,196.5
+Cancer,1967,197.3
+Cancer,1968,198.8
+Cancer,1969,198.5
+Cancer,1970,198.6
+Cancer,1971,199.3
+Cancer,1972,200.3
+Cancer,1973,200.0
+Cancer,1974,201.5
+Cancer,1975,200.1
+Cancer,1976,202.5
+Cancer,1977,203.5
+Cancer,1978,204.9
+Cancer,1979,204.0
+Cancer,1980,207.9
+Cancer,1981,206.4
+Cancer,1982,208.3
+Cancer,1983,209.1
+Cancer,1984,210.8
+Cancer,1985,211.3
+Cancer,1986,211.5
+Cancer,1987,211.7
+Cancer,1988,212.5
+Cancer,1989,214.2
+Cancer,1990,216.0
+Cancer,1991,215.2
+Cancer,1992,213.5
+Cancer,1993,213.5
+Cancer,1994,211.7
+Cancer,1995,209.8
+Cancer,1996,206.7
+Cancer,1997,203.5
+Cancer,1998,200.7
+Cancer,1999,200.8
+Cancer,2000,199.6
+Cancer,2001,196.5
+Cancer,2002,194.3
+Cancer,2003,190.9
+Cancer,2004,186.8
+Cancer,2005,185.1
+Cancer,2006,181.8
+Cancer,2007,179.3
+Cancer,2008,176.4
+Cancer,2009,173.5
+Cancer,2010,172.8
+Cancer,2011,169.0
+Cancer,2012,166.5
+Cancer,2013,163.2
+Stroke,1900,244.2
+Stroke,1901,243.6
+Stroke,1902,237.8
+Stroke,1903,244.6
+Stroke,1904,255.2
+Stroke,1905,247.3
+Stroke,1906,245.9
+Stroke,1907,261.8
+Stroke,1908,239.0
+Stroke,1909,237.5
+Stroke,1910,238.5
+Stroke,1911,230.2
+Stroke,1912,228.7
+Stroke,1913,226.9
+Stroke,1914,231.3
+Stroke,1915,234.5
+Stroke,1916,235.7
+Stroke,1917,238.2
+Stroke,1918,228.0
+Stroke,1919,225.6
+Stroke,1920,238.5
+Stroke,1921,230.1
+Stroke,1922,238.9
+Stroke,1923,245.6
+Stroke,1924,246.4
+Stroke,1925,227.9
+Stroke,1926,228.2
+Stroke,1927,216.3
+Stroke,1928,223.4
+Stroke,1929,213.3
+Stroke,1930,203.9
+Stroke,1931,195.0
+Stroke,1932,194.4
+Stroke,1933,185.0
+Stroke,1934,184.5
+Stroke,1935,181.2
+Stroke,1936,189.8
+Stroke,1937,176.6
+Stroke,1938,171.4
+Stroke,1939,173.2
+Stroke,1940,177.2
+Stroke,1941,169.4
+Stroke,1942,166.8
+Stroke,1943,173.3
+Stroke,1944,164.4
+Stroke,1945,166.7
+Stroke,1946,158.8
+Stroke,1947,161.3
+Stroke,1948,157.4
+Stroke,1949,176.2
+Stroke,1950,180.7
+Stroke,1951,181.4
+Stroke,1952,180.2
+Stroke,1953,179.2
+Stroke,1954,173.4
+Stroke,1955,177.3
+Stroke,1956,177.4
+Stroke,1957,183.0
+Stroke,1958,183.0
+Stroke,1959,179.0
+Stroke,1960,177.9
+Stroke,1961,173.1
+Stroke,1962,174.0
+Stroke,1963,173.9
+Stroke,1964,167.0
+Stroke,1965,166.4
+Stroke,1966,165.8
+Stroke,1967,159.3
+Stroke,1968,162.5
+Stroke,1969,155.4
+Stroke,1970,147.7
+Stroke,1971,147.6
+Stroke,1972,147.3
+Stroke,1973,145.2
+Stroke,1974,136.8
+Stroke,1975,123.5
+Stroke,1976,117.4
+Stroke,1977,110.4
+Stroke,1978,103.7
+Stroke,1979,97.3
+Stroke,1980,96.4
+Stroke,1981,89.7
+Stroke,1982,84.4
+Stroke,1983,81.4
+Stroke,1984,78.9
+Stroke,1985,76.6
+Stroke,1986,73.3
+Stroke,1987,71.8
+Stroke,1988,70.8
+Stroke,1989,67.1
+Stroke,1990,65.5
+Stroke,1991,63.1
+Stroke,1992,61.6
+Stroke,1993,62.9
+Stroke,1994,62.8
+Stroke,1995,63.3
+Stroke,1996,62.6
+Stroke,1997,61.2
+Stroke,1998,59.4
+Stroke,1999,61.6
+Stroke,2000,60.9
+Stroke,2001,58.4
+Stroke,2002,57.2
+Stroke,2003,54.6
+Stroke,2004,51.2
+Stroke,2005,48.0
+Stroke,2006,44.8
+Stroke,2007,43.5
+Stroke,2008,42.1
+Stroke,2009,39.6
+Stroke,2010,39.1
+Stroke,2011,37.9
+Stroke,2012,36.9
+Stroke,2013,36.2
+Accidents,1900,90.3
+Accidents,1901,109.3
+Accidents,1902,93.6
+Accidents,1903,106.9
+Accidents,1904,112.8
+Accidents,1905,108.5
+Accidents,1906,121.2
+Accidents,1907,122.3
+Accidents,1908,108.8
+Accidents,1909,108.0
+Accidents,1910,111.2
+Accidents,1911,113.5
+Accidents,1912,107.1
+Accidents,1913,108.2
+Accidents,1914,100.4
+Accidents,1915,95.2
+Accidents,1916,104.3
+Accidents,1917,107.0
+Accidents,1918,99.9
+Accidents,1919,86.9
+Accidents,1920,87.5
+Accidents,1921,83.2
+Accidents,1922,85.4
+Accidents,1923,91.2
+Accidents,1924,89.6
+Accidents,1925,92.2
+Accidents,1926,89.8
+Accidents,1927,86.3
+Accidents,1928,86.1
+Accidents,1929,84.3
+Accidents,1930,84.2
+Accidents,1931,81.2
+Accidents,1932,76.6
+Accidents,1933,76.2
+Accidents,1934,82.7
+Accidents,1935,80.8
+Accidents,1936,92.4
+Accidents,1937,81.8
+Accidents,1938,76.5
+Accidents,1939,74.7
+Accidents,1940,76.0
+Accidents,1941,72.7
+Accidents,1942,75.6
+Accidents,1943,82.1
+Accidents,1944,77.0
+Accidents,1945,74.9
+Accidents,1946,69.4
+Accidents,1947,69.9
+Accidents,1948,68.6
+Accidents,1949,57.6
+Accidents,1950,78.4
+Accidents,1951,79.7
+Accidents,1952,78.0
+Accidents,1953,75.4
+Accidents,1954,69.9
+Accidents,1955,70.9
+Accidents,1956,70.2
+Accidents,1957,69.1
+Accidents,1958,63.6
+Accidents,1959,63.2
+Accidents,1960,63.1
+Accidents,1961,60.6
+Accidents,1962,62.9
+Accidents,1963,64.0
+Accidents,1964,64.1
+Accidents,1965,65.8
+Accidents,1966,67.6
+Accidents,1967,66.2
+Accidents,1968,65.5
+Accidents,1969,64.9
+Accidents,1970,62.2
+Accidents,1971,60.3
+Accidents,1972,60.2
+Accidents,1973,59.3
+Accidents,1974,52.7
+Accidents,1975,50.8
+Accidents,1976,48.7
+Accidents,1977,48.8
+Accidents,1978,48.9
+Accidents,1979,46.5
+Accidents,1980,46.4
+Accidents,1981,43.4
+Accidents,1982,40.1
+Accidents,1983,39.1
+Accidents,1984,38.8
+Accidents,1985,38.5
+Accidents,1986,38.6
+Accidents,1987,38.2
+Accidents,1988,38.9
+Accidents,1989,37.7
+Accidents,1990,36.2
+Accidents,1991,34.7
+Accidents,1992,33.2
+Accidents,1993,34.2
+Accidents,1994,34.2
+Accidents,1995,34.4
+Accidents,1996,34.5
+Accidents,1997,34.2
+Accidents,1998,34.5
+Accidents,1999,35.3
+Accidents,2000,34.9
+Accidents,2001,35.7
+Accidents,2002,37.1
+Accidents,2003,37.6
+Accidents,2004,38.1
+Accidents,2005,39.5
+Accidents,2006,40.2
+Accidents,2007,40.4
+Accidents,2008,39.2
+Accidents,2009,37.5
+Accidents,2010,38.0
+Accidents,2011,39.1
+Accidents,2012,39.1
+Accidents,2013,39.4
+Influenza and Pneumonia,1900,297.5
+Influenza and Pneumonia,1901,312.9
+Influenza and Pneumonia,1902,219.3
+Influenza and Pneumonia,1903,251.1
+Influenza and Pneumonia,1904,291.2
+Influenza and Pneumonia,1905,257.8
+Influenza and Pneumonia,1906,222.5
+Influenza and Pneumonia,1907,285.4
+Influenza and Pneumonia,1908,234.6
+Influenza and Pneumonia,1909,221.2
+Influenza and Pneumonia,1910,238.4
+Influenza and Pneumonia,1911,234.1
+Influenza and Pneumonia,1912,213.7
+Influenza and Pneumonia,1913,214.8
+Influenza and Pneumonia,1914,202.4
+Influenza and Pneumonia,1915,238.1
+Influenza and Pneumonia,1916,278.5
+Influenza and Pneumonia,1917,267.0
+Influenza and Pneumonia,1918,612.4
+Influenza and Pneumonia,1919,270.9
+Influenza and Pneumonia,1920,279.2
+Influenza and Pneumonia,1921,153.1
+Influenza and Pneumonia,1922,207.6
+Influenza and Pneumonia,1923,253.0
+Influenza and Pneumonia,1924,182.0
+Influenza and Pneumonia,1925,198.1
+Influenza and Pneumonia,1926,233.0
+Influenza and Pneumonia,1927,164.0
+Influenza and Pneumonia,1928,236.4
+Influenza and Pneumonia,1929,247.5
+Influenza and Pneumonia,1930,159.8
+Influenza and Pneumonia,1931,170.2
+Influenza and Pneumonia,1932,180.0
+Influenza and Pneumonia,1933,156.5
+Influenza and Pneumonia,1934,152.9
+Influenza and Pneumonia,1935,163.8
+Influenza and Pneumonia,1936,186.7
+Influenza and Pneumonia,1937,181.8
+Influenza and Pneumonia,1938,124.3
+Influenza and Pneumonia,1939,124.4
+Influenza and Pneumonia,1940,117.6
+Influenza and Pneumonia,1941,104.6
+Influenza and Pneumonia,1942,84.7
+Influenza and Pneumonia,1943,101.7
+Influenza and Pneumonia,1944,94.7
+Influenza and Pneumonia,1945,74.9
+Influenza and Pneumonia,1946,69.9
+Influenza and Pneumonia,1947,65.9
+Influenza and Pneumonia,1948,58.0
+Influenza and Pneumonia,1949,45.1
+Influenza and Pneumonia,1950,48.1
+Influenza and Pneumonia,1951,47.4
+Influenza and Pneumonia,1952,43.1
+Influenza and Pneumonia,1953,49.2
+Influenza and Pneumonia,1954,36.2
+Influenza and Pneumonia,1955,39.2
+Influenza and Pneumonia,1956,40.8
+Influenza and Pneumonia,1957,50.3
+Influenza and Pneumonia,1958,47.4
+Influenza and Pneumonia,1959,44.3
+Influenza and Pneumonia,1960,53.7
+Influenza and Pneumonia,1961,43.4
+Influenza and Pneumonia,1962,47.1
+Influenza and Pneumonia,1963,55.6
+Influenza and Pneumonia,1964,45.4
+Influenza and Pneumonia,1965,46.8
+Influenza and Pneumonia,1966,47.9
+Influenza and Pneumonia,1967,42.2
+Influenza and Pneumonia,1968,52.8
+Influenza and Pneumonia,1969,47.9
+Influenza and Pneumonia,1970,41.7
+Influenza and Pneumonia,1971,38.4
+Influenza and Pneumonia,1972,41.3
+Influenza and Pneumonia,1973,41.2
+Influenza and Pneumonia,1974,35.5
+Influenza and Pneumonia,1975,34.9
+Influenza and Pneumonia,1976,38.8
+Influenza and Pneumonia,1977,31.0
+Influenza and Pneumonia,1978,34.5
+Influenza and Pneumonia,1979,26.1
+Influenza and Pneumonia,1980,31.4
+Influenza and Pneumonia,1981,30.0
+Influenza and Pneumonia,1982,26.5
+Influenza and Pneumonia,1983,29.8
+Influenza and Pneumonia,1984,30.6
+Influenza and Pneumonia,1985,34.5
+Influenza and Pneumonia,1986,34.8
+Influenza and Pneumonia,1987,33.8
+Influenza and Pneumonia,1988,37.3
+Influenza and Pneumonia,1989,35.9
+Influenza and Pneumonia,1990,36.8
+Influenza and Pneumonia,1991,34.9
+Influenza and Pneumonia,1992,33.1
+Influenza and Pneumonia,1993,35.2
+Influenza and Pneumonia,1994,33.9
+Influenza and Pneumonia,1995,33.8
+Influenza and Pneumonia,1996,33.2
+Influenza and Pneumonia,1997,33.6
+Influenza and Pneumonia,1998,34.6
+Influenza and Pneumonia,1999,23.5
+Influenza and Pneumonia,2000,23.7
+Influenza and Pneumonia,2001,22.2
+Influenza and Pneumonia,2002,23.2
+Influenza and Pneumonia,2003,22.6
+Influenza and Pneumonia,2004,20.4
+Influenza and Pneumonia,2005,21.0
+Influenza and Pneumonia,2006,18.4
+Influenza and Pneumonia,2007,16.8
+Influenza and Pneumonia,2008,17.6
+Influenza and Pneumonia,2009,16.5
+Influenza and Pneumonia,2010,15.1
+Influenza and Pneumonia,2011,15.7
+Influenza and Pneumonia,2012,14.5
+Influenza and Pneumonia,2013,15.9

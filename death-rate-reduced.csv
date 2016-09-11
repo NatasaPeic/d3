@@ -1,0 +1,11 @@
+symbol,date,rate
+Heart Disease,1900,265.4
+Heart Disease,1901,272.6
+Cancer,1900,114.8
+Cancer,1901,118.1
+Stroke,1900,244.2
+Stroke,1901,243.6
+Accidents,1900,90.3
+Accidents,1901,109.3
+Influenza and Pneumonia,1900,297.5
+Influenza and Pneumonia,1901,312.9
