@@ -23,7 +23,6 @@
 
     // create x, y axis functions
     // ticks sets data points
-    // pass x in scale function
     let xAxis = d3.svg.axis().scale(x)
         .orient("bottom").ticks(10);
     let yAxis = d3.svg.axis().scale(y)
@@ -111,7 +110,7 @@
 
 
     // Constructs a new ordinal scale with a range of ten categorical colors
-    let color = d3.scale.category10();  
+    let color = d3.scale.category10();
 
 
 
