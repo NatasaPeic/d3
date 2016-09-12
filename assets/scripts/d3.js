@@ -57,6 +57,7 @@
 
 
         // Get the data
+        // Loading data is async operation, so we have to wrap our code that is dependent on the dataset inside callback 
         // d3.csv function calls callback function and passes two arguments, error and data, callback in anonymous function
         let chart1 = d3.csv("death-rate.csv", function(error, data) {
           // it iterates through array of javascript objects

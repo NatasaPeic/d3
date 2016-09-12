@@ -1,6 +1,7 @@
 'use strict';
 
 
+
 // width = 800 (svg container)-100, for the graph
 // height = 600 (svg container)- 130 for the graph
 let margin = {top: 30, right: 50, bottom: 100, left: 50},
