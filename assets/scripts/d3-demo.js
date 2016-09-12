@@ -1,19 +1,22 @@
 'use strict';
 
 
-
-
+// width = 800 (svg container)-100, for the graph
+// height = 600 (svg container)- 130 for the graph
 let margin = {top: 30, right: 50, bottom: 100, left: 50},
     width = 800 - margin.left - margin.right,
     height = 600 - margin.top - margin.bottom;
 
 
-
+// Parse the date / time
 let parseDate = d3.time.format("%Y").parse;
 
 
 
 // Set the ranges
+// time scale funcion for x axis data and scale linear function for y axis.
+// creates scaling function where range goes from 0 to the width of inner drawing space.
+// creates scaling function where the range goes from the height of the inner drawing space to 0.
 let x = d3.time.scale().range([0, width]);
 let y = d3.scale.linear().range([height, 0]);
 
@@ -30,6 +33,7 @@ let yAxis = d3.svg.axis().scale(y)
 
 
 // Define the line
+// it complies the date and the rate in our dataset which means that x values access the date from the data passed through anonymous function
 let line = d3.svg.line()
     .x(function(d) { return x(d.date); })
     .y(function(d) { return y(d.rate); });
@@ -52,11 +56,12 @@ let svg = d3.select("#cdc-1")
 
 
 // Get the data
-// d3.csv function calls callback function and passes two arguments, error and data, callback in anonymous function
+// d3.csv function loads data and calls callback function and passes two arguments, error and data, callback in anonymous function
 let chart1 = d3.csv("death-rate.csv", function(error, data) {
                callBackError = error;
                callbackData = data;
     });
+
 
 callbackData;
 callBackError;
@@ -83,9 +88,11 @@ typeof(callbackData[0]['rate']);
 
     y.domain(d3.extent(callbackData, function(d) { return d.rate; }));
 
-
+// domain
 d3.extent(callbackData, function(d) { return d.date; });
 d3.extent(callbackData, function(d) { return d.rate; });
+
+
 
     // Add the X Axis
     svg.append("g")
@@ -118,12 +125,12 @@ d3.extent(callbackData, function(d) { return d.rate; });
 
 
 
-    let color = d3.scale.category10();  // set the color scale
+    let color = d3.scale.category10();
 
 
 
 
-// d3 path generator
+    // d3 path generator
     // Loop through each symbol / key
     dataNest.forEach(function(d) {
          svg.append("path")

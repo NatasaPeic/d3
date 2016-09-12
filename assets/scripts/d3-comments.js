@@ -29,6 +29,7 @@ let y = d3.scale.linear().range([height, 0]);
 // create x, y axis functions. we pass in x scale function that was created earlier
 // ticks sets data points
 // will be called once we have range, domain and scale functions set
+  // pass x in scale function
 let xAxis = d3.svg.axis().scale(x)
     .orient("bottom").ticks(10);
     // it appears on the left
